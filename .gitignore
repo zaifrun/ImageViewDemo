@@ -2,6 +2,7 @@
 .gitignore
 .gradle/2.14.1/
 .idea/workspace.xml
+app/build
 app/build/generated/res/
 app/build/generated/source/aidl/
 app/build/generated/source/r/androidTest/
