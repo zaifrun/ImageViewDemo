@@ -5,12 +5,14 @@
     android:gravity="top"
     android:orientation="vertical">
 
-    <!-- the scaletype="fitStart" is to make the image go into the top -->
+    <!-- the scaletype="fitStart" is to make the image go into the top.
+     You can experiment with the android:scaletype-->
 
     <ImageView
        android:id="@+id/imageView1"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
+       android:scaleType="fitEnd"
        android:src="@drawable/image1" />
 
 </LinearLayout>
